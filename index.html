@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <main>
+        <h1>Cálculo de IMC <br>(Índice de Massa Corporal)</h1>
+
+
+        <div class="divAltura">
+            <label for="altura">Altura (M)</label>
+            <input type="number" id="altura">
+
+        </div>
+        <div class="divPeso">
+            <label for="peso">Peso (Kg)</label>
+            <input type="number" id="peso">
+
+        </div>
+        <div class="divCalc">
+            <button onclick="calcIMC()">Calcular</button>
+        </div>
+        <span id="resultado"></span>
+
+        <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm" target="_blank">Clique aqui para saber mais sobre o IMC</a>
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
